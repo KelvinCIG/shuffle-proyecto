@@ -1,0 +1,6 @@
+.awrap {width: 100%;}
+ul {list-style-type: none;margin: 0;padding: 0;}
+.ahead {position: relative;}
+.abody {overflow: hidden;max-height: 0; height: auto;}
+.ahead.open:after {transform: rotate(90deg);}
+.ahead.open + .abody {max-height: 600px; }
